@@ -38,5 +38,8 @@ my_app/
 |  |  |-- note.dart
 |  |-- services/
 |  |  |-- note_service.dart
+|  |  |-- auth_service.dart
+|  |  |-- firestore_service.dart
+|  |  |-- storage_service.dart
 |-- test/
 |-- pubspec.yaml

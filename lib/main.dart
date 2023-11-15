@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+      darkTheme: ThemeData.dark(), //TODO: Add a dark theme
       home: const MyHomePage(title: 'First Page of Frog Note 🐸'),
     );
   }
