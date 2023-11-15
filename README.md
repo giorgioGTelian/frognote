@@ -19,6 +19,8 @@ samples, guidance on mobile development, and a full API reference.
 ## plugin added
 flutter pub add pencil_kit - pencil kit for OS 
 TBD = use the note taking template
+TDB = setting up firebase
+TDB = setting up secure auth
 
 project structure so far:
 my_app/
