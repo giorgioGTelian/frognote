@@ -19,3 +19,24 @@ samples, guidance on mobile development, and a full API reference.
 ## plugin added
 flutter pub add pencil_kit - pencil kit for OS 
 TBD = use the note taking template
+
+project structure so far:
+my_app/
+|-- android/
+|-- ios/
+|-- lib/
+|  |-- main.dart
+|  |-- screens/
+|  |  |-- login_screen.dart
+|  |  |-- home_screen.dart
+|  |  |-- note_screen.dart
+|  |-- widgets/
+|  |  |-- my_drawer.dart
+|  |  |-- note_list.dart
+|  |  |-- note_item.dart
+|  |-- models/
+|  |  |-- note.dart
+|  |-- services/
+|  |  |-- note_service.dart
+|-- test/
+|-- pubspec.yaml
