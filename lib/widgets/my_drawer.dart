@@ -6,7 +6,33 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-        //TODO Populate the Drawer in the next steps.
-        );
+      child: ListView(
+        padding: EdgeInsets.zero,
+        children: <Widget>[
+          DrawerHeader(
+            child: Text('Notes App Menu'),
+            decoration: BoxDecoration(
+              color: Colors.blue,
+            ),
+          ),
+          ListTile(
+            title: Text('Note 1'),
+            onTap: () {
+              // Update the state of the app.
+              // Then close the drawer.
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            title: Text('Note 2'),
+            onTap: () {
+              // Update the state of the app.
+              // Then close the drawer.
+              Navigator.pop(context);
+            },
+          ),
+        ],
+      ),
+    );
   }
 }

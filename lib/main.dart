@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frognote/widgets/my_drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -86,8 +87,9 @@ class _MyHomePageState extends State<MyHomePage> {
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
-      ), //menu TODO  ADD -> drawer: MyDrawer(),
-      drawer: Drawer(
+      ), //menu TODO  ADD ->
+      drawer: MyDrawer(),
+      /*  drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
@@ -115,7 +117,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ],
         ),
-      ),
+      ), */
 
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
